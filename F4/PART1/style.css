@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin: 40px auto;
+    border: 3px solid #800040;
+}
+
+.header {
+    grid-column: span 5;
+    border: 2px solid #800040;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;               
+    background-color: #800040;   
+}
+
+.name {
+    border: 2px solid #800040;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.box {
+    
+    
+    border: 2px solid #800040;
+    min-height: 250px;
+    padding: 10px;
+    text-align: left;
+    
+
+}
+.footer {
+    grid-column: span 5;
+    border: 2px solid #800040;
+    padding: 15px;
+    font-weight: bold;
+    color: white;               
+    background-color: #800040;
+}
+.friend-img {
+    width: 120px;        
+    height: 120px;       
+    object-fit: cover;   
+    display: block;
+    margin: 10px auto;   
+    border-radius: 10px;
+}
+
+
+.box {
+    border: 2px solid #800040;
+    min-height: 250px;
+    padding: 10px;
+    text-align: left;
+    overflow: auto;
+}
+
