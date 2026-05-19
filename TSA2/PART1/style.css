@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    background-color: #800040;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.title-row {
+    background-color: #811149;
+    color: white;
+    font-size: 20px;
+}
+
+
+.fruit-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+td:last-child {
+    text-align: left;
+}
+
+
+.fruit-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
